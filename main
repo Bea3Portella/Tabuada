@@ -1,0 +1,10 @@
+multiplication = 0
+while True:
+    value = int(input('Quer ver a tabuada de qual valor? '))
+    print('-'*35)
+    if value < 0:
+        break
+    for i in range(1, 11):
+        multiplication = value * i
+        print(f'{value} x {i} = {multiplication}')
+print('Programa tabuada encerrado. Volte sempre! ')
